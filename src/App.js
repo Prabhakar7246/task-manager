@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import bgImage from "./assets/task manager bg.jpg";
+import cardImage from "./assets/task manager caard bg.jpg";
 
 function App() {
   //states
@@ -99,7 +101,7 @@ const handleMouseMove = (e) => {
       justifyContent: "center",
       alignItems: "center",
       height: "100vh",
-      backgroundImage: "url('https://4kwallpapers.com/images/walls/thumbs_2t/14653.jpg')",
+      backgroundImage: `url(${bgImage})`,
       backgroundSize: "cover",
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
@@ -112,7 +114,7 @@ const handleMouseMove = (e) => {
         left: position.x,
         top: position.y,
         cursor: "grab",
-        backgroundImage: "url('https://4kwallpapers.com/images/walls/thumbs_2t/25924.jpg')",
+        backgroundImage: `url(${cardImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
