@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import bgImage from "./assets/task manager bg.jpg";
-import cardImage from "./assets/task manager caard bg.jpg";
+import bgImage from "./assets/task_manager_bg.jpg";
+import cardImage from "./assets/task_manager_card_bg.jpg";
 
 function App() {
   //states
